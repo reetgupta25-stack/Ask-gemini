@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Gemini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Ask Gemini</h1>
+    <p>Ask anything. Discover something new.</p>
+
+    <form id="question-form">
+      <textarea
+        id="question"
+        placeholder="What would you like to know?"
+        required
+      ></textarea>
+
+      <button type="submit" id="submit-btn">Ask Gemini</button>
+    </form>
+
+    <section id="result" aria-live="polite">
+      <h2>AI Answer</h2>
+      <p id="answer">Your answer will appear here.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
